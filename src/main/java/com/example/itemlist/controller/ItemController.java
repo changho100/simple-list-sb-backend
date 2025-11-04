@@ -1,8 +1,10 @@
-package com.example.itemlist;
+package com.example.itemlist.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.itemlist.entity.Item;
 
 import java.util.Arrays;
 import java.util.List;

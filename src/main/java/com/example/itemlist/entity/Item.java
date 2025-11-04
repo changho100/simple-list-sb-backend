@@ -1,4 +1,4 @@
-package com.example.itemlist;
+package com.example.itemlist.entity;
 
 public class Item {
     private Long id;

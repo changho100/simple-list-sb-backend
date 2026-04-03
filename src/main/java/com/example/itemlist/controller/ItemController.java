@@ -26,6 +26,6 @@ public class ItemController {
 
     @GetMapping("/hello")
     public GreetingResponse hello() {
-        return new GreetingResponse("Hello World from Spring Boot!");
+        return new GreetingResponse("Hello World from 스프링부트!");
     }
 }
